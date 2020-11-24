@@ -28,12 +28,22 @@
 #ifndef SRC_SLAM_H_
 #define SRC_SLAM_H_
 
+#define RASTER_SIZE 5
+#define RASTER_RES 0.05
+
 namespace slam {
 
 class SLAM {
  public:
   // Default Constructor.
   SLAM();
+  void CreatePointCloud(const std::vector<float>& ranges,
+                        float range_min,
+                        float range_max,
+                        float angle_min,
+                        float angle_max,
+                        std::vector<Eigen::Vector2f>& pointcloud);
+  float RasterLookup(float x, float y);
 
   // Observe a new laser scan.
   void ObserveLaser(const std::vector<float>& ranges,
@@ -41,6 +51,10 @@ class SLAM {
                     float range_max,
                     float angle_min,
                     float angle_max);
+
+  void GetRasterTable(const Eigen::Vector2f& odom_loc, 
+                      const float odom_angle, 
+                      std::vector<Eigen::Vector2f>& scan_ptr);
 
   // Observe new odometry-reported location.
   void ObserveOdometry(const Eigen::Vector2f& odom_loc,
@@ -58,6 +72,17 @@ class SLAM {
   Eigen::Vector2f prev_odom_loc_;
   float prev_odom_angle_;
   bool odom_initialized_;
+
+  bool execute_csm_;
+  float dx_, dy_, dtheta_;
+  float change_x,change_y,change_theta;
+  std::vector<std::vector<float>> raster_table;
+
+  float curr_x, curr_y, curr_theta;
+  std::vector<std::vector<float>> raster_table_;
+
+  std::vector<Eigen::Vector2f> map_;
+  int raster_count = 0;
 };
 }  // namespace slam
 

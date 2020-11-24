@@ -88,7 +88,7 @@ class ParticleFilter {
                               std::vector<Eigen::Vector2f>* scan);
 
  private:
-
+  std::vector<Eigen::Vector2f> our_obstacles_;
   // List of particles being tracked.
   std::vector<Particle> particles_;
 
@@ -102,6 +102,7 @@ class ParticleFilter {
   Eigen::Vector2f prev_odom_loc_;
   float prev_odom_angle_;
   bool odom_initialized_;
+  float robot_x, robot_y, robot_angle;
 };
 }  // namespace slam
 

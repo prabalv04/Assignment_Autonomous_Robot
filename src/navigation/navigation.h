@@ -26,6 +26,9 @@
 #ifndef NAVIGATION_H
 #define NAVIGATION_H
 
+using std::vector;
+using Eigen::Vector2f;
+
 namespace ros {
   class NodeHandle;
 }  // namespace ros
@@ -57,13 +60,17 @@ class Navigation {
                       float ang_vel);
 
   // Updates based on an observed laser scan
-  void ObservePointCloud(const std::vector<Eigen::Vector2f>& cloud,
+  void ObservePointCloud(const std::vector<Eigen::Vector2f> cloud,
                          double time);
-
+	float CalcPointFPL(const Vector2f obstacles, float radius, float &final_x, float &final_y,bool debug);
+	float CalculateScore(float fpl, float clearance, float goal_dist);
+  float CalcGoalDistance(float x_goal, float y_goal, float x_final, float y_final);
+	vector<float> SelectCurvature(vector<Vector2f> obstacles);
   // Main function called continously from main
   void Run();
   // Used to set the next target pose.
   void SetNavGoal(const Eigen::Vector2f& loc, float angle);
+  float OneDTOC(float u,float u_max,float a_max,float a_min,float s);
 
  private:
 
@@ -86,6 +93,11 @@ class Navigation {
   Eigen::Vector2f nav_goal_loc_;
   // Navigation goal angle.
   float nav_goal_angle_;
+	// Pointcloud of obstacles
+	vector<Vector2f> point_cloud_;
+
+  float prev_velocity = 0;
+  float cur_veclocity = 0;
 };
 
 }  // namespace navigation

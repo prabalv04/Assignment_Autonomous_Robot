@@ -98,9 +98,9 @@ void PublishMap() {
   ClearVisualizationMsg(vis_msg_);
 
   const vector<Vector2f> map = slam_.GetMap();
-  printf("Map: %lu points\n", map.size());
+  // printf("Map: %lu points\n", map.size());
   for (const Vector2f& p : map) {
-    visualization::DrawPoint(p, 0xC0C0C0, vis_msg_);
+    visualization::DrawPoint(p, 0x008000, vis_msg_);
   }
   visualization_publisher_.publish(vis_msg_);
 }
@@ -116,6 +116,11 @@ void PublishPose() {
   localization_publisher_.publish(localization_msg);
 }
 
+// void PublishRaster()
+// {
+  
+// }
+
 void LaserCallback(const sensor_msgs::LaserScan& msg) {
   if (FLAGS_v > 0) {
     printf("Laser t=%f\n", msg.header.stamp.toSec());
@@ -129,6 +134,7 @@ void LaserCallback(const sensor_msgs::LaserScan& msg) {
       msg.angle_max);
   PublishMap();
   PublishPose();
+  // PublishRaster();
 }
 
 void OdometryCallback(const nav_msgs::Odometry& msg) {
