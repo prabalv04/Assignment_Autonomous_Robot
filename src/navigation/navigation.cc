@@ -46,8 +46,9 @@ using std::vector;
 
 using namespace math_util;
 using namespace ros_helpers;
+using namespace std;
 
-
+#define LIDAR_DIST 0
 
 namespace {
 ros::Publisher drive_pub_;
