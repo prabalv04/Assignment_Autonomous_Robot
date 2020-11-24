@@ -22,6 +22,9 @@
 #include <vector>
 
 #include "eigen3/Eigen/Dense"
+// #include "node.cc"
+#include "Astar.h"
+
 
 #ifndef NAVIGATION_H
 #define NAVIGATION_H
@@ -65,17 +68,26 @@ class Navigation {
 	float CalcPointFPL(const Vector2f obstacles, float radius, float &final_x, float &final_y,bool debug);
 	float CalculateScore(float fpl, float clearance, float goal_dist);
   float CalcGoalDistance(float x_goal, float y_goal, float x_final, float y_final);
-	vector<float> SelectCurvature(vector<Vector2f> obstacles);
+  vector<float> SelectCurvature(vector<Vector2f> obstacles);
+	vector<float> SelectCurvature2(vector<Vector2f> obstacles);
   // Main function called continously from main
   void Run();
   // Used to set the next target pose.
   void SetNavGoal(const Eigen::Vector2f& loc, float angle);
   float OneDTOC(float u,float u_max,float a_max,float a_min,float s);
+	void CalculateGrid(Vector2f xy, int& i, int& j);
+  void PlotCar(Vector2f start_point);
+  void RunAStar();
 
  private:
 
   // Current robot location.
   Eigen::Vector2f robot_loc_;
+  Eigen::Vector2f prev_robot_loc_;
+  Eigen::Vector2f temp_goal;
+  bool robot_loc_init_;
+  bool inside_run;
+  bool goal_set;
   // Current robot orientation.
   float robot_angle_;
   // Current robot velocity.
@@ -84,13 +96,18 @@ class Navigation {
   float robot_omega_;
   // Odometry-reported robot location.
   Eigen::Vector2f odom_loc_;
+
   // Odometry-reported robot angle.
   float odom_angle_;
+
+  // Map of the environment.
+  vector_map::VectorMap map_;
 
   // Whether navigation is complete.
   bool nav_complete_;
   // Navigation goal location.
   Eigen::Vector2f nav_goal_loc_;
+  Eigen::Vector2f nav_goal_loc_global;
   // Navigation goal angle.
   float nav_goal_angle_;
 	// Pointcloud of obstacles
@@ -98,6 +115,10 @@ class Navigation {
 
   float prev_velocity = 0;
   float cur_veclocity = 0;
+
+  int no_astar_called = 0;
+  vector<pair<int,int>> planned_path;
+  
 };
 
 }  // namespace navigation

@@ -28,15 +28,15 @@ The CXX compiler identification is GNU, found in "/home/tharun/projects/cs393r_s
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_768a0/fast"
+Run Build Command:"/usr/bin/make" "cmTC_38130/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_768a0.dir/build.make CMakeFiles/cmTC_768a0.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_38130.dir/build.make CMakeFiles/cmTC_38130.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_768a0.dir/testCCompiler.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_768a0.dir/testCCompiler.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_768a0
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_768a0.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_768a0.dir/testCCompiler.c.o  -o cmTC_768a0 
+Building C object CMakeFiles/cmTC_38130.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_38130.dir/testCCompiler.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_38130
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38130.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_38130.dir/testCCompiler.c.o  -o cmTC_38130 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -44,15 +44,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3c9a2/fast"
+Run Build Command:"/usr/bin/make" "cmTC_e1665/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_3c9a2.dir/build.make CMakeFiles/cmTC_3c9a2.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_e1665.dir/build.make CMakeFiles/cmTC_e1665.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o   -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_3c9a2
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c9a2.dir/link.txt --verbose=1
-/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o  -o cmTC_3c9a2 
+Building C object CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o   -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e1665
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1665.dir/link.txt --verbose=1
+/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o  -o cmTC_e1665 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -64,9 +64,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3c9a2' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwXBo5D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3c9a2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3c9a2' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1665' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1zlpOD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e1665 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1665' '-mtune=generic' '-march=x86-64'
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -75,15 +75,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3c9a2/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e1665/fast"]
   ignore line: [make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3c9a2.dir/build.make CMakeFiles/cmTC_3c9a2.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e1665.dir/build.make CMakeFiles/cmTC_e1665.dir/build]
   ignore line: [make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o   -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_3c9a2]
-  ignore line: [/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c9a2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o  -o cmTC_3c9a2 ]
+  ignore line: [Building C object CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o   -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e1665]
+  ignore line: [/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1665.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o  -o cmTC_e1665 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -95,13 +95,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3c9a2' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwXBo5D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3c9a2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1665' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1zlpOD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e1665 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccwXBo5D.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1zlpOD.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -120,7 +120,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3c9a2] ==> ignore
+    arg [cmTC_e1665] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -132,7 +132,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_3c9a2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e1665.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -164,15 +164,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31539/fast"
+Run Build Command:"/usr/bin/make" "cmTC_9725d/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_31539.dir/build.make CMakeFiles/cmTC_31539.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_9725d.dir/build.make CMakeFiles/cmTC_9725d.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_31539.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_31539.dir/feature_tests.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_31539
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31539.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_31539.dir/feature_tests.c.o  -o cmTC_31539 
+Building C object CMakeFiles/cmTC_9725d.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_9725d.dir/feature_tests.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9725d
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9725d.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_9725d.dir/feature_tests.c.o  -o cmTC_9725d 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -186,15 +186,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_15eac/fast"
+Run Build Command:"/usr/bin/make" "cmTC_fc3b1/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_15eac.dir/build.make CMakeFiles/cmTC_15eac.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_fc3b1.dir/build.make CMakeFiles/cmTC_fc3b1.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_15eac.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_15eac.dir/feature_tests.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_15eac
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15eac.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_15eac.dir/feature_tests.c.o  -o cmTC_15eac 
+Building C object CMakeFiles/cmTC_fc3b1.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_fc3b1.dir/feature_tests.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fc3b1
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc3b1.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_fc3b1.dir/feature_tests.c.o  -o cmTC_fc3b1 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -208,15 +208,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9f6da/fast"
+Run Build Command:"/usr/bin/make" "cmTC_79e53/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_9f6da.dir/build.make CMakeFiles/cmTC_9f6da.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_79e53.dir/build.make CMakeFiles/cmTC_79e53.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9f6da.dir/feature_tests.c.o
-/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_9f6da.dir/feature_tests.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9f6da
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f6da.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_9f6da.dir/feature_tests.c.o  -o cmTC_9f6da 
+Building C object CMakeFiles/cmTC_79e53.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_79e53.dir/feature_tests.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_79e53
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79e53.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_79e53.dir/feature_tests.c.o  -o cmTC_79e53 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -228,15 +228,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d307/fast"
+Run Build Command:"/usr/bin/make" "cmTC_405fa/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_6d307.dir/build.make CMakeFiles/cmTC_6d307.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_405fa.dir/build.make CMakeFiles/cmTC_405fa.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6d307.dir/testCXXCompiler.cxx.o
-/usr/bin/g++     -o CMakeFiles/cmTC_6d307.dir/testCXXCompiler.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_6d307
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d307.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_6d307.dir/testCXXCompiler.cxx.o  -o cmTC_6d307 
+Building CXX object CMakeFiles/cmTC_405fa.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_405fa.dir/testCXXCompiler.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_405fa
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_405fa.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_405fa.dir/testCXXCompiler.cxx.o  -o cmTC_405fa 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -244,15 +244,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0def9/fast"
+Run Build Command:"/usr/bin/make" "cmTC_cc623/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_0def9.dir/build.make CMakeFiles/cmTC_0def9.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_cc623.dir/build.make CMakeFiles/cmTC_cc623.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++     -o CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_0def9
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0def9.dir/link.txt --verbose=1
-/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0def9 
+Building CXX object CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_cc623
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc623.dir/link.txt --verbose=1
+/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cc623 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -264,9 +264,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0def9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgrlCAL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0def9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0def9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc623' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9hWOMP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cc623 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc623' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -275,15 +275,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0def9/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cc623/fast"]
   ignore line: [make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0def9.dir/build.make CMakeFiles/cmTC_0def9.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cc623.dir/build.make CMakeFiles/cmTC_cc623.dir/build]
   ignore line: [make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_0def9]
-  ignore line: [/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0def9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0def9 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_cc623]
+  ignore line: [/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc623.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cc623 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -295,13 +295,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0def9' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgrlCAL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0def9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc623' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9hWOMP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cc623 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgrlCAL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9hWOMP.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -320,7 +320,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0def9] ==> ignore
+    arg [cmTC_cc623] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -332,7 +332,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_0def9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_cc623.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -360,15 +360,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d425/fast"
+Run Build Command:"/usr/bin/make" "cmTC_3736d/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_6d425.dir/build.make CMakeFiles/cmTC_6d425.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_3736d.dir/build.make CMakeFiles/cmTC_3736d.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6d425.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_6d425.dir/feature_tests.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6d425
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d425.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_6d425.dir/feature_tests.cxx.o  -o cmTC_6d425 
+Building CXX object CMakeFiles/cmTC_3736d.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_3736d.dir/feature_tests.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3736d
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3736d.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_3736d.dir/feature_tests.cxx.o  -o cmTC_3736d 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -435,15 +435,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0777f/fast"
+Run Build Command:"/usr/bin/make" "cmTC_5fed8/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_0777f.dir/build.make CMakeFiles/cmTC_0777f.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_5fed8.dir/build.make CMakeFiles/cmTC_5fed8.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0777f.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_0777f.dir/feature_tests.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0777f
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0777f.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_0777f.dir/feature_tests.cxx.o  -o cmTC_0777f 
+Building CXX object CMakeFiles/cmTC_5fed8.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_5fed8.dir/feature_tests.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5fed8
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fed8.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_5fed8.dir/feature_tests.cxx.o  -o cmTC_5fed8 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -510,15 +510,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c26af/fast"
+Run Build Command:"/usr/bin/make" "cmTC_cc263/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_c26af.dir/build.make CMakeFiles/cmTC_c26af.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_cc263.dir/build.make CMakeFiles/cmTC_cc263.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c26af.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_c26af.dir/feature_tests.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c26af
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c26af.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_c26af.dir/feature_tests.cxx.o  -o cmTC_c26af 
+Building CXX object CMakeFiles/cmTC_cc263.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_cc263.dir/feature_tests.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cc263
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc263.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_cc263.dir/feature_tests.cxx.o  -o cmTC_cc263 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -585,15 +585,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_805f2/fast"
+Run Build Command:"/usr/bin/make" "cmTC_fb6bf/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_805f2.dir/build.make CMakeFiles/cmTC_805f2.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_fb6bf.dir/build.make CMakeFiles/cmTC_fb6bf.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_805f2.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_805f2.dir/feature_tests.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_805f2
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_805f2.dir/link.txt --verbose=1
-/usr/bin/g++       -rdynamic CMakeFiles/cmTC_805f2.dir/feature_tests.cxx.o  -o cmTC_805f2 
+Building CXX object CMakeFiles/cmTC_fb6bf.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_fb6bf.dir/feature_tests.cxx.o -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fb6bf
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb6bf.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_fb6bf.dir/feature_tests.cxx.o  -o cmTC_fb6bf 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -658,15 +658,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1655d/fast"
+Run Build Command:"/usr/bin/make" "cmTC_db8d6/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_1655d.dir/build.make CMakeFiles/cmTC_1655d.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_db8d6.dir/build.make CMakeFiles/cmTC_db8d6.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1655d.dir/CheckIncludeFile.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_1655d.dir/CheckIncludeFile.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1655d
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1655d.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_1655d.dir/CheckIncludeFile.c.o  -o cmTC_1655d 
+Building C object CMakeFiles/cmTC_db8d6.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_db8d6.dir/CheckIncludeFile.c.o   -c /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_db8d6
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db8d6.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_db8d6.dir/CheckIncludeFile.c.o  -o cmTC_db8d6 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 
@@ -674,15 +674,15 @@ make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFile
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bbe66/fast"
+Run Build Command:"/usr/bin/make" "cmTC_0bc91/fast"
 make[1]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_bbe66.dir/build.make CMakeFiles/cmTC_bbe66.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_0bc91.dir/build.make CMakeFiles/cmTC_0bc91.dir/build
 make[2]: Entering directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bbe66.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bbe66.dir/CheckFunctionExists.c.o   -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bbe66
-/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbe66.dir/link.txt --verbose=1
-/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_bbe66.dir/CheckFunctionExists.c.o  -o cmTC_bbe66 -lpthread 
+Building C object CMakeFiles/cmTC_0bc91.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0bc91.dir/CheckFunctionExists.c.o   -c /home/tharun/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0bc91
+/home/tharun/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bc91.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0bc91.dir/CheckFunctionExists.c.o  -o cmTC_0bc91 -lpthread 
 make[2]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/tharun/projects/cs393r_starter/build/CMakeFiles/CMakeTmp'
 

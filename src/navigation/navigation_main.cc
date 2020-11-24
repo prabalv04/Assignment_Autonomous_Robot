@@ -26,12 +26,12 @@
 #include <string.h>
 #include <inttypes.h>
 #include <vector>
-#include <cmath>
 
 #include "glog/logging.h"
 #include "gflags/gflags.h"
 #include "eigen3/Eigen/Dense"
 #include "eigen3/Eigen/Geometry"
+#include "amrl_msgs/Localization2DMsg.h"
 #include "gflags/gflags.h"
 #include "geometry_msgs/Pose2D.h"
 #include "geometry_msgs/PoseArray.h"
@@ -48,6 +48,7 @@
 
 #include "navigation.h"
 
+using amrl_msgs::Localization2DMsg;
 using math_util::DegToRad;
 using math_util::RadToDeg;
 using navigation::Navigation;
@@ -79,26 +80,21 @@ void LaserCallback(const sensor_msgs::LaserScan& msg) {
            msg.header.stamp.toSec(),
            GetWallTime() - msg.header.stamp.toSec());
   }
-	
-	
-  
   // Location of the laser on the robot. Assumes the laser is forward-facing.
   const Vector2f kLaserLoc(0.2, 0);
 
-  static vector<Vector2f> point_cloud2_;
-	// might be a problem
-	for(unsigned int i=0; i<msg.ranges.size(); i++) {
-		float theta, x, y;
-    std::cout<<"updated\n";
-		theta = msg.angle_min + (i * msg.angle_increment);
-		x = msg.ranges[i] * cos(theta) + kLaserLoc.x();
-		y = msg.ranges[i] * sin(theta) + kLaserLoc.y();
-		Vector2f new_point(x, y);
-		point_cloud2_.push_back(new_point);
-	}
+  static vector<Vector2f> point_cloud_;
+  point_cloud_.clear();
+  for(unsigned int i=0; i<msg.ranges.size(); i++) {
+    float theta, x, y;
 
-  // TODO Convert the LaserScan to a point cloud
-  navigation_->ObservePointCloud(point_cloud2_, msg.header.stamp.toSec());
+    theta = msg.angle_min + (i * msg.angle_increment);
+    x = msg.ranges[i] * cos(theta) + kLaserLoc.x();
+    y = msg.ranges[i] * sin(theta) + kLaserLoc.y();
+    Vector2f new_point(x, y);
+    point_cloud_.push_back(new_point);
+  }
+  navigation_->ObservePointCloud(point_cloud_, msg.header.stamp.toSec());
   last_laser_msg_ = msg;
 }
 
@@ -130,11 +126,11 @@ void SignalHandler(int) {
   run_ = false;
 }
 
-void LocalizationCallback(const geometry_msgs::Pose2D& msg) {
+void LocalizationCallback(const amrl_msgs::Localization2DMsg msg) {
   if (FLAGS_v > 0) {
     printf("Localization t=%f\n", GetWallTime());
   }
-  navigation_->UpdateLocation(Vector2f(msg.x, msg.y), msg.theta);
+  navigation_->UpdateLocation(Vector2f(msg.pose.x, msg.pose.y), msg.pose.theta);
 }
 
 int main(int argc, char** argv) {
@@ -154,7 +150,7 @@ int main(int argc, char** argv) {
   ros::Subscriber goto_sub =
       n.subscribe("/move_base_simple/goal", 1, &GoToCallback);
 
-  RateLoop loop(10.0);
+  RateLoop loop(20.0);
   while (run_ && ros::ok()) {
     ros::spinOnce();
     navigation_->Run();

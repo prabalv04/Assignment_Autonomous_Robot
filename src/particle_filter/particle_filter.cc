@@ -75,7 +75,7 @@ DEFINE_double(num_particles, 50, "Number of particles");
 #define k3_theta 0.15
 #define k4_theta 0.15
 #define lidar_dist 0.2
-#define sigma 3000.0
+#define sigma 1000.0
 
 namespace particle_filter {
 
@@ -336,6 +336,27 @@ void ParticleFilter::ObserveLaser(const vector<float>& ranges,
   if(particles_.size()!=0) {
     Update(ranges, range_min, range_max, angle_min, angle_max, &particles_[0]);
     Resample();
+
+
+    // float abs_dtheta = 0,dx=0,dy=0,dtheta=0;    
+    // float angle_estimate;
+    // Vector2f location_estimate;
+    // GetLocation(&location_estimate,&angle_estimate);
+    // Vector2f loc_base(0,0);
+
+    // for(unsigned int i=0; i<particles_.size(); i++) {
+    //   float ds, random_x, random_y, random_theta;
+    //   ds = sqrt(dx*dx + dy*dy);
+    //   random_x = 0.3*rng_.Gaussian(0.0, k1_x * ds + k2_x * abs_dtheta);
+    //   random_y = 0.3*rng_.Gaussian(0.0, k1_y * ds + k2_y * abs_dtheta);
+    //   Vector2f change_vec(random_x+loc_base.x(),random_y + loc_base.y());
+    //   Vector2f rotated_map = Eigen::Rotation2Df(angle_estimate)*change_vec;
+    //   random_theta = 0.3*rng_.Gaussian(0, k3_theta * ds + k4_theta * abs_dtheta);
+    //   particles_[i].loc.x() = particles_[i].loc.x() + rotated_map.x();
+    //   particles_[i].loc.y() = particles_[i].loc.y() + rotated_map.y();
+    //   particles_[i].angle = particles_[i].angle + dtheta + random_theta;
+    //   // std::cout<<"Update "<<"\n";
+    // }
   }
   
 }

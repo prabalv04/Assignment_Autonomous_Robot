@@ -40,6 +40,7 @@ class SimpleQueue {
       // If the value already exists, update its priority, re-sort the priority
       // queue, and return.
       if (x.first == v) {
+        x.first = v;
         x.second = p;
         Sort();
         return;
@@ -87,6 +88,22 @@ class SimpleQueue {
       if (x.first == v) return true;
     }
     return false;
+  }
+
+  //check
+  Priority GetPriority(const Value& v)
+  {
+    for (const auto& x : values_) {
+      if (x.first == v) return x.second;
+    }
+    return 0;
+  }
+
+  Value Search(Value v){
+    for (const auto& x : values_) {
+      if (x.first == v) return x.first;
+    }
+    return Value();
   }
 
   private:
